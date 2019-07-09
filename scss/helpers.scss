@@ -6,27 +6,10 @@
 // position 之类定义后还要定义 top 等其他样式数值的个人认为还是单独写在一起的可读性比较好
 // 所以暂时只收录了常用的部分
 // ============================================================
-// 加入了一些 Moem 自用样式
+// 加入了一些 Neko0 自用样式
 // ============================================================
+
 .m- {
-    // == Moem 自用样式 == //
-    &hide-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
-
-	&card {
-		position: relative;
-		background: white;
-		color: #666666;
-		overflow: hidden;
-		border-radius: 4px;
-		box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
-	}
-
-	&shadow {
-		box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
-	}
-
 	// 浮动
 	&left {
 		float: left;
@@ -369,5 +352,36 @@
 	}
 	&jc-sb {
 		justify-content: space-between;
+    }
+    
+    // == Neko0 自用样式 == //
+    &hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+	&card {
+		position: relative;
+		background: white;
+		color: #666666;
+		overflow: hidden;
+		border-radius: 4px;
+		box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+	}
+
+	&shadow {
+		box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+	}
+}
+
+// == Neko0 自用样式 == //
+// Clear Fix
+.clearfix {
+	zoom: 1;
+	&:after {
+		content: ".";
+		display: block;
+		height: 0;
+		visibility: hidden;
+		clear: both;
 	}
 }

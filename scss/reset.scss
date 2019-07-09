@@ -40,18 +40,8 @@ hr {
 		user-select: none;
 	}
 }
+
 // 禁用iOS设备点击蓝色高亮
 * {
 	-webkit-tap-highlight-color: transparent;
-}
-// Clear Fix
-.clearfix {
-	zoom: 1;
-	&:after {
-		content: ".";
-		display: block;
-		height: 0;
-		visibility: hidden;
-		clear: both;
-	}
 }
