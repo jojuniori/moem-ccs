@@ -1,0 +1,24 @@
+{
+  "name": "neko0-web-advance-module",
+  "version": "1.0.0",
+  "description": "Practical Web Development Toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekozero/neko0-web-advance-module.git"
+  },
+  "keywords": [
+    "library",
+    "develope",
+    "toolkit"
+  ],
+  "author": "jojuniori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekozero/neko0-web-advance-module/issues"
+  },
+  "homepage": "https://github.com/nekozero/neko0-web-advance-module#readme"
+}
