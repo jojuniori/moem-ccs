@@ -1,6 +1,6 @@
 # neko0-web-advance-module
 
-install
+## install
 
 `npm i neko0-web-advance-module -S`
 
@@ -20,14 +20,18 @@ npm package page: https://www.npmjs.com/package/neko0-web-advance-module
 
 也可以根据此方法 选择性添加 自己需要的文件
 
-color.css 基于 [Muse UI](https://muse-ui.org/#/zh-CN/color) 修改 
+## color.scss
+
+基于 [Muse UI](https://muse-ui.org/#/zh-CN/color) 修改 
 
     Muse UI的是Less用的，这里将其改为了SCSS
     可以直接于官方网址内的Color参考颜色并且复制颜
     色名
 
 
-helpers.scss 主要灵感源于 [Emmet](https://emmet.io/)
+## helpers.scss
+
+主要灵感源于 [Emmet](https://emmet.io/)
 
     
     类似于在 HTML Tag 的 class 中直接编写 Emmet 的 CSS 部分
@@ -36,11 +40,13 @@ helpers.scss 主要灵感源于 [Emmet](https://emmet.io/)
     加入了一些 Neko0 自用样式
     之后有需求可能会继续添加(包括position)
 
-package.scss
+## package.scss
 
     修改了一些第三方包本身有所缺陷的地方
 
-spacing.scss 基于 [Vuetify](https://vuetifyjs.com/zh-Hans/layout/spacing) 修改 
+## spacing.scss
+
+基于 [Vuetify](https://vuetifyjs.com/zh-Hans/layout/spacing) 修改 
 
     Vuetify的是Stylus用的，这里将其改为了SCSS适用的并拓展
     将margin或者padding应用于一个元素，范围在 0到5 之间。
@@ -67,11 +73,13 @@ spacing.scss 基于 [Vuetify](https://vuetifyjs.com/zh-Hans/layout/spacing) 修�
     4 - 将margin或者padding属性设置为$spacer * 1.5
     5 - 将margin或者padding属性设置为$spacer * 3
 
-reset.scss 
+## reset.scss 
 
     个人规范意义的 初始化用的 scss 文件
 
-main.scss 中包含了
+## main.scss
+
+包含了
 
     package.scss
     helpers.scss
